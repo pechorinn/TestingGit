@@ -7,6 +7,8 @@ public class CashDesk {
 	public void addMoney(double money) {
 		if(money>0) {
 			this.money+=money;
+		}else{
+			System.out.println("Not enought money");
 		}
 	}
 
